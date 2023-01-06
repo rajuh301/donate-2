@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+}
+
+
+header{  
+    /* background-image: url('../images/header_bg.png');
+    background-repeat:no-repeat;
+    background-position: bottom right, left; */
+    margin-top: 100px;
+    padding-left: 10%;
+ 
+
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #121212;
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-top:20%;
+
+
+}
+
+
+
+
+header img{
+    height: auto;
+    width: 400px;
+    position: absolute;
+    padding-left: 58%;
+    margin-top: -15%;
+  
+}
+
+.bg{
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 50%;
+    height: auto;
+    width: 40%;
+}
+
+/* Primary button */
+
+
+
+
+.btn{
+   
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    padding: 16px 12px;
+    margin-left: -5px;
+    margin-top: 25%;
+    color: #FF5959;
+    border-radius: 5px;
+    
+}
+
+.donet-section{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 28%;
+    
+}
+
+.donet-section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.donet-section p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #707070;
+
+
+}
+
+.amount{
+    padding-top: 20px;
+    display: flex;
+    gap:10px ;
+    margin-left: 22%;
+    text-align: center;
+    transition: 0.5s;
+
+}
+/* Hover effect */
+
+.amount :hover{
+    background-color: #FF5959;
+    color: white;
+    transition: 1s;
+
+
+}
+
+
+.tk{
+
+    height:123px;
+    width: 135px;
+    background-color:#FAFAFA;
+    margin-top: 55%;
+    /* padding-left:5%; */
+    margin-top: 75%;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    
+}
+
+
+.anather h6{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #B3B3B3;
+    padding: 0 22%;
+    margin-bottom: 20px;
+}
+
+.download{
+    text-align: center;
+    width: 156px;
+    height: 56px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    border-style: none;
+    color:white;
+    font-size: large;
+}
+
+.download2{
+    text-align: center;
+    width: 156px;
+    height: 56px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    border-style: none;
+    color:white;
+    margin: 20px 44%;
+    font-size: large;
+
+}
+
+.watch-btn{
+    text-align: center;
+    width: 156px;
+    height: 56px;
+    /* background-color: #FF5959; */
+    border-radius: 5px;
+    padding: 16px 12px;
+    border-style: none;
+    color:black;
+    font-size: large;
+}
+
+
+.our-donet{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #707070;
+}
+
+
+.our-donet h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.our-donet p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.food{
+    display: flex;
+    gap: 50px;
+    margin-left:2%;
+}
+
+.food img{
+    margin-top: 100px;
+}
+
+.catagori-box{
+    height:360px;
+    width: 352px;
+    background-color:rgba(79, 157, 166, 0.1) ;
+    border-radius: 5px;
+    padding-left: 30px;
+
+}
+
+.catagori-box h4{
+
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#121212 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.catagori-box p{
+    font-size: 16px;
+    color: #707070;
+
+
+}
+
+/* ------------------ */
+
+
+
+.catagori-box1{
+    height:360px;
+    width: 352px;
+    background-color:rgba(255, 89, 89, 0.1) ;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    
+
+
+}
+
+.catagori-box1 h4{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#121212 ;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.catagori-box1 p{
+    font-size: 16px;
+    color: #707070;
+}
+
+/* ------------------ */
+
+
+.catagori-box2{
+    height:360px;
+    width: 352px;
+    background-color:rgba(255, 255, 0, 0.226);
+    border-radius: 5px;
+    padding-left: 30px;
+
+}
+
+.catagori-box2 h4{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#121212 ;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.catagori-box2 p{
+    font-size: 16px;
+    color: #707070;
+}
+
+
+/* image section */
+
+.main-img{
+    display: flex;
+    gap: 200px;
+    margin: 20px;
+    margin-left: 10%;
+    margin-bottom: 120px;
+}
+
+.main-img img{
+    height: 456px;
+    width: 447px;
+}
+
+.main-img h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.main-img p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+}
+
+.how-to-cont{
+    margin-top: 30px;
+    width: 230px;
+    height: 56px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-size: large;
+
+}
+
+/* Secont banner with image */
+
+.main-img2{
+    
+    display: flex;
+    gap: 200px;
+    margin: 20px;
+    margin-left: 10%;
+
+}
+
+.main-img2 img{
+    height: 456px;
+    width: 447px;
+}
+
+.main-img2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.main-img2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+}
+
+
+/* get update */
+
+.footer{
+    margin-top:150px;
+    text-align: center;
+
+
+
+}
+
+.footer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom:30px;
+
+}
+
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+
+}
+
+/* last footer */
+
+.last{
+    
+    margin-top: 50px;
+    height: 200px;
+    width: 809px;
+    margin-left:20%;
+    background-color:#FFF4D6 ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+ 
+
+}
+
+.last input{
+    margin-top: 100px;
+    height:48px;
+    width: 275px;
+}
+
+.last a{
+    height:48px;
+    width: 275px;
+    text-decoration: none;
+    background-color: #FF5959;
+    font-size: 16px;
+    font-weight: 500;
+    padding:18px;
+    color: white;
+    
+}
+
+
+/* footer ad */
+
+.footer-ad{
+    text-align: center;
+    background-color: #121212;
+    height: 200px;
+    width: auto;
+    padding-top: 5%;
+}
+
+.footer-ad h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF5959;
+    font-size: 36px;
+    
+}
+
+.footer-ad h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+
+
+}
